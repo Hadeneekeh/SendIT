@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+header {
+    height: 100vh;
+    background-image: url(img1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer {
+    background-color: #DCD0C0;
+    text-align: center;
+}
+h1 {
+    color: #C0B283;
+}
+h2 {
+    color: #C0B283;
+}
+h3 {
+    color: #373737;
+}
+h4 {
+    color: #f4f4f4;
+}
+p {
+    font-size: medium;
+}
+nav {
+    background-color: #DCD0C0;
+    text-align: center;
+    align-self: center;
+}
+nav a {
+    text-decoration: none;
+    color: #373737;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul {
+    margin: 0px;
+    padding: 5px 5px 5px 20px;
+}
+#welcome {
+    align-self: flex-end;
+    text-align: center;
+    margin-top: 100px;
+}
+#about-us {
+    text-align: center;
+    padding: 15px 10px 10px 15px;
+}
+#how-it-works {
+    background-color: #373737;
+    text-align: center;
+    padding: 0 5px 5px 10px;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+}
+.usage-description {
+    width: 25%;
+    background-color: #DCD0C0;
+    color: #373737;
+    padding: 0 5px 5px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+ a {
+    color: #373737;
+    text-decoration: none;
+}
+/*a:hover{
+    color: #f4f4f4;
+    text-decoration: underline;
+} */
