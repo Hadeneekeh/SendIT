@@ -66,6 +66,12 @@ nav li a:hover {
     text-align: center;
     padding: 15px 10px 10px 15px;
 }
+nav ul li a.active {
+    background-color: #f4f4f4;
+    /* color: #f4f4f4;
+    font-size: 18px;
+    font-weight: bold; */
+}
 #how-it-works {
     background-color: #373737;
     text-align: center;
@@ -91,10 +97,7 @@ nav li a:hover {
     color: #373737;
     text-decoration: none;
 }
-/*a:hover{
-    color: #f4f4f4;
-    text-decoration: underline;
-} */
+
 .formContainer {
     display: block;
     text-align: left;
@@ -127,8 +130,8 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
 }
 
 .close {
-    color: #C0B283;
-    font-size: 35px;
+    color: #f4f4f4;
+    font-size: 55px;
     font-weight: bold;
     /* position: absolute; */
     /* top: 10px; */
@@ -137,7 +140,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
 }
 .close:hover,
 .close:focus {
-    color: #f4f4f4;
+    color: red;
     cursor: pointer;
 }
 .modal {
@@ -154,6 +157,4 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
 }
 img {
     width: 100%;
-
-
 }

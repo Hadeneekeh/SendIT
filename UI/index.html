@@ -14,8 +14,8 @@
             <ul>
                 <li><a href="#about-us">About Us</a></li>
                 <li><a href="#how-it-works">How it works</a></li>
-                <li class="openModal" onclick="openSignUp()">Sign Up</li>
-                <li class="openModal" onclick="openSignIn()">Sign In</li>
+                <li id="signUpModal" onclick="openSignUp()">Sign Up</li>
+                <li id="signInModal" onclick="openSignIn()">Sign In</li>
             </ul>
         </nav>
         <div id="welcome">
@@ -25,7 +25,7 @@
     </header>
     
     <main>
-        <div id="about-us">
+        <div class="act" id="about-us">
             <span class="headings"><h1>About Us</h1></span>
             <p>SendIT is a leading courier services company established in 2019. 
                 We have fast become the world best package delivery company and a 
@@ -74,7 +74,7 @@
         <section>
                 <div id="sign-up" class = "modal">
 
-                    <span class="close">&times;</span>
+                    <span id="closeSignUpModal" class="close">&times;</span>
 
                     <div class = "formContainer">
                         <form>
@@ -104,7 +104,7 @@
 
                 <div id="sign-in" class = "modal">
                         
-                    <span class="close" onclick="closeModal()">&times;</span>
+                    <span id="closeSignInModal" class="close">&times;</span>
 
                        <div class = "formContainer">
                             <form>
