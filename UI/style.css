@@ -1,13 +1,40 @@
 body {
     margin: 0;
 }
-header {
+.body-bg {
+    background-color: #f4f4f4;
+}
+#header-bg {
     height: 100vh;
     background-image: url(img1.jpg);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+#logOff-header {
+    background-image: url(img3.jpg);
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+.logOff-btn {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    width: 150px;
+    align-self: flex-end;
+    color: #C0B283;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid #DCD0C0;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.logOff-btn:hover {
+    background-color: red;
 }
 footer {
     background-color: #DCD0C0;
@@ -78,7 +105,7 @@ nav ul li a.active {
     padding: 15px 5px 5px 10px;
     margin-top: 40px;
 }
-#container {
+.container {
     display: flex;
     flex-direction: row;
     padding-top: 15px;
@@ -116,17 +143,18 @@ input[type=text], input[type=password], input[type=email] {
     display: inline-block;
 }
 input[type=button] {
-    width: 100%;
+    width: 75%;
     padding: 10px;
     margin: 5px 5px 10px 0;
     display: inline-block;
     cursor: pointer;
+    background-color: #DCD0C0;
 }
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
     background-color: #f4f4f4;	
 }
 .btn:hover {
-    background-color: #DCD0C0;    
+    background-color: #f4f4f4;    
 }
 
 .close {
@@ -157,4 +185,65 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
 }
 img {
     width: 100%;
+}
+.parcel-info {
+    padding: 2px 15px;
+    height: 300px;
+    margin: 10px;
+    background-color: #C0B283;
+    color: #f4f4f4;
+}
+.customer-parcel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #DCD0C0;
+    box-shadow: 0 10px 20px rgba(219, 195, 127, 0.19), 0 10px 20px rgba(0,0,0,0.23);
+    color: #373737;
+    width: 50%;
+    text-align: left;
+    
+}
+.info {
+    margin: 0 25px 0 10px;
+}
+#p-container {
+    margin-top: 0;
+    padding-top: 0;
+}
+.parcel-info-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 50px;
+    text-align: center;
+    background-color: #C0B283;
+    width: 30%;
+}
+#p-location {
+    width: 50%;
+    box-shadow: 0 10px 20px rgba(219, 195, 127, 0.794), 0 10px 20px rgba(0,0,0,0.23);
+}
+#p-status {
+    width: 50%;
+    padding: 10px;
+    color: #373737;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(219, 195, 127, 0.794);
+    border: 2px solid #DCD0C0;
+}
+.btn-submit {
+    width: 40%;
+    background-color: #DCD0C0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #DCD0C0;
+    color: #373737;
+    font-weight: bold;
+    font-size: medium;
+}
+.btn-submit:hover {
+    font-size: large;
+    box-shadow: 0 10px 20px rgba(219, 195, 127, 0.794), 0 10px 20px rgba(0,0,0,0.23);
 }
